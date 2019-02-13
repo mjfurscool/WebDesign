@@ -1,0 +1,122 @@
+@charset "UTF-8";
+@font-face{
+    font-family: pixel;
+    src: url(./fonts/pixelfont/pixel_font-7.ttf);
+}
+body{
+    margin-left: 300px;
+
+    background-image: url(./img/Blue-background/ODRAYS0.jpg);
+    background-size: 100%;
+    background-attachment:fixed;
+    color: red;
+}
+.sub_menue
+{
+    display:none;
+}
+ul.menue{
+    font-size: 150%;
+    color: darkblue;
+}
+li:hover .sub_menue
+{
+    display:block;
+}
+h1{
+    font-size: 250%;
+    text-align:center;
+}
+h2,h3{
+
+}
+figure.mypic{
+    float: left;
+    padding: 50px 0 0 50px;
+}
+img.mypic{
+    border-radius: 256px;
+}
+figcaption{
+    text-align:center;
+}
+footer{
+    font-size: 50%;
+}
+.rotated{
+    display: inline-block;
+    transform: rotate(-12deg);
+}
+.ini{
+    font-size: 250%;
+}
+.subtitle{
+    font-size: 120%;
+}
+
+div.food_left {
+    border-radius: 16px;
+    width: 600px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+}
+div.food_right {
+    border-radius: 16px;
+    width: 500px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+    margin-left:500px;
+}
+
+div.container {
+    text-align: center;
+    width: 500px;
+    padding: 10px 20px;
+}
+img.food{
+    border-radius:16px;
+    width:500px;
+}
+div.exlink{
+    padding-top: 100px;
+    text-align: center;
+    color: blueviolet;
+}
+.sidebar{
+    position: fixed;
+    margin-left:-150px;
+    margin-right: -20px;
+    
+}
+.navbox{
+    float:left;
+    
+}
+ul.nav{
+    width:100px;
+    padding:50px 0 60px 0;
+    background:url() no-repeat;
+    
+}
+ul.nav li{
+    margin:5px 0 0 0;
+    
+}
+ul.nav li a{
+    background:#cbcbcb url() no-repeat;
+    color:#174867;padding:7px 15px 7px 15px;
+    width:90px;
+    display:block;
+    text-decoration:none;
+    background-image: url(img/Blue-background/ODRAYS0.jpg);
+    
+}
+ul.nav li a:hover{
+    background:#ebebeb url() no-repeat;
+    color:#67a5cd;
+    padding:7px 15px 7px 30px;
+    
+}
+
